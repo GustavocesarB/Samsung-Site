@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background:linear-gradient( rgb(49, 145, 145), rgb(20, 73, 73),  rgb(9, 28, 28))
+}
+
+header{
+    background: linear-gradient( rgb(49, 145, 145), rgb(207, 226, 226));
+    display: flex;/*alinhar os elementos ao lado*/
+    justify-content: space-between; /*espaçamento entre os dois*/
+    padding: 20px;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none; /* remover a formatação*/
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;/*deixa a letra maiusculo*/
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(255, 255, 255);
+}
+
+section{
+    margin-top: 70px;
+    text-align: center;
+}
+
+label{
+    color: white;
+}
+
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+
+section{
+    align-items: center;
+   justify-content: space-between;
+   
+}
+
+
+
+.grupo-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-around;
+    
+
+}
+
+
+.card{
+   width: 350px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+
+}
+
+.card img{
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+h3{
+    background:linear-gradient( rgb(1, 16, 16),  rgb(41, 72, 72))
+    
+    
+}
+
+strong{
+    color: linear-gradient(rgb(78, 101, 101), rgb(27, 66, 66), rgb(9, 40, 40))
+    
+}
+
